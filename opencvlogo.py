@@ -28,10 +28,9 @@ cv2.circle(img, dot_blue, r1, blue, full)
 cv2.circle(img, dot_red, r2, black, full)
 cv2.circle(img, dot_green, r2, black, full)
 cv2.circle(img, dot_blue, r2, black, full)
-cv2.imshow("opencv_logo.png", img)
-cv2.waitKey(0)
-# cv2.ellipse(img, dot_red, (r1, r1), ang, 0, ang, black, full)
-# cv2.ellipse(img, dot_green, (r1, r1), 360-ang, 0, ang, black, full)
-# cv2.ellipse(img, dot_blue, (r1, r1), 360-2*ang, ang, 0, black, full)
+
+cv2.ellipse(img, dot_red, (r1, r1), ang, 0, ang, black, full)
+cv2.ellipse(img, dot_green, (r1, r1), 360-ang, 0, ang, black, full)
+cv2.ellipse(img, dot_blue, (r1, r1), 360-2*ang, ang, 0, black, full)
 
 
